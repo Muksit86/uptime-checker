@@ -13,4 +13,4 @@ jobs:
       - name: Ping your API
         run: |
           echo "Checking uptime for your API..."
-          curl -I https://your-app-name.onrender.com || echo "API is down"
+          curl -I https://uptime-checker-pp4t.onrender.com || echo "API is down"
